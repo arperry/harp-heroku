@@ -1,0 +1,14 @@
+doctype
+html
+  head
+    title="My Site"
+    link(href="/assets/style.css", rel="stylesheet")
+  body
+    header
+      a(href="/")
+        img(src="/assets/logo.png")
+        | My Site
+    main
+      != yield /* This is the text of the article we're viewing */
+    footer
+      | Copyright (c) foobar
