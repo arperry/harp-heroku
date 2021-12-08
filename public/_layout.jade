@@ -1,14 +1,15 @@
 doctype
 html
   head
-    title="My Site"
+    title="Harp-Heroku"
     link(href="/assets/style.css", rel="stylesheet")
   body
     header
       a(href="/")
         img(src="/assets/logo.png")
-        | My Site
+        | Harp-Heroku
     main
       != yield /* This is the text of the article we're viewing */
     footer
-      | Copyright (c) foobar
+      | This is your footer
+    script(src="/assets/editButton.js")
